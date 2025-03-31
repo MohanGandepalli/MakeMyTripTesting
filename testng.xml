@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test thread-count="5" name="Test" parallel="classes">
+<classes>
+<class name="Steps.SeleniumOneWayFlightSteps"></class>
+<class name="Steps.SeleniumTwoWayFlightSteps"></class>
+<class name="Steps.SeleniumHotelBookingSteps"></class>
+<class name="Steps.SeleniumHolidayPackageSteps"></class>
+</classes>
+</test>
+</suite>
